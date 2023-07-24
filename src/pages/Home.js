@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css';
+import ProfileImg from '../assets/profilePic/profileImg.jpg'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         bridge cultures and unite technology with human connection, leaving an
         indelible mark on the world of software engineering and beyond.
       </h3>
+      <img className='profile-img' src={ProfileImg} alt='profile IMG'/>
     </div>
   )
 }

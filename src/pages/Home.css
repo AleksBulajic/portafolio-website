@@ -24,6 +24,10 @@
     margin-bottom: 1.2rem;
     color: #666; 
   }
+  .profile-img{
+    width: 200px; 
+    height: 200px;
+  }
   
 
   a {
