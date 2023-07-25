@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }from "react";
 import "./Home.css";
 import ProfileImg from "../assets/profilePic/profileImg.jpg";
 import {
@@ -7,8 +7,17 @@ import {
   FaLinkedin,
   FaFileDownload,
 } from "react-icons/fa";
+import VanillaTilt from "vanilla-tilt"; 
 
 function Home() {
+  useEffect(() => {
+    VanillaTilt.init(document.querySelector(".home-container"), {
+      max: 25, 
+      speed: 400, 
+      glare: true, 
+      "max-glare": 0.4, 
+    });
+  }, []);
   return (
     <div className="home-container">
       <h1 className="h1-home">Aleksandar Bulajic</h1>
