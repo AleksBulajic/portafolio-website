@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
+
+
+
   return (
     <div>
       <nav className='navbar-container'>
@@ -19,6 +22,7 @@ function Navbar() {
           {/* <li>
             <Link to="/contact">Contact</Link>
           </li> */}
+       
         </ul>
       </nav>
     </div>

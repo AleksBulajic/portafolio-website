@@ -5,24 +5,23 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
-import ParticlesComponent from "./components/Particles";
+import ParticlesComponent from "./components/ParticlesComponent";
 
 function App() {
   return (
     <>
-    <div className="particles-container">
-    <ParticlesComponent />
-    </div>
       <Navbar />
-      
+      <div className="particles-container">
+        <ParticlesComponent id="particles-container" />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Projects />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </>
   );
 }
+
 
 export default App;
