@@ -1,5 +1,5 @@
 # Welcome to My Portfolio!
-Portfolio Banner
+
 
 
 ## About Me
@@ -8,24 +8,23 @@ Hey there! I'm Aleksandar Bulajic, a passionate and adventurous software enginee
 
 ## Projects
 Memory-Card-Game
-Test your memory skills with my interactive Memory Card Game! Match two cards and see how quickly you can complete the game. Built entirely by me using HTML, CSS, and JavaScript. Play Game Here
+Test your memory skills with my interactive Memory Card Game! Match two cards and see how quickly you can complete the game. Built entirely by me using HTML, CSS, and JavaScript. 
 
 
 ## Full CRUD Application
-Experience the power of a full CRUD application! I developed this project by integrating a 3rd party API, allowing users to perform Create, Read, Update, and Delete operations through a seamless front-end and back-end interface. Comprehensive research and secure coding ensure a smooth experience. Check it out
+Experience the power of a full CRUD application! I developed this project by integrating a 3rd party API, allowing users to perform Create, Read, Update, and Delete operations through a seamless front-end and back-end interface. Comprehensive research and secure coding ensure a smooth experience. 
 
 
 ## MangaVerse
-As a pivotal team member, I contributed to MangaVerse, a dynamic web application that combines JavaScript, MongoDB, and powerful authentication. With skillful back-end setup and integration with a 3rd party API, we achieved full CRUD functionality and a user-friendly interface. Discover MangaVerse
+As a pivotal team member, I contributed to MangaVerse, a dynamic web application that combines JavaScript, MongoDB, and powerful authentication. With skillful back-end setup and integration with a 3rd party API, we achieved full CRUD functionality and a user-friendly interface. 
 
 
 ## IdentityLock
-Step into the future of digital identity with IdentityLock! As team lead and senior developer, I led the creation of this groundbreaking app using React.js, Python, Django, and SQL. Blockchain and AI FinTech Guru provide unique user identities, while decentralized NFT and asset storage ensure secure transactions. Explore IdentityLock
+Step into the future of digital identity with IdentityLock! As team lead and senior developer, I led the creation of this groundbreaking app using React.js, Python, Django, and SQL. Blockchain and AI FinTech Guru provide unique user identities, while decentralized NFT and asset storage ensure secure transactions.
 
 
 # Skills
 
-- Skills
 - React
 - CSS
 - HTML
@@ -37,7 +36,6 @@ Step into the future of digital identity with IdentityLock! As team lead and sen
 - Blockchain
 - Web3
 - Axios
-- Solidity
 - Ethers
 - Cors
 

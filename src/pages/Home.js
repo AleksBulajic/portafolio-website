@@ -17,6 +17,7 @@ function Home() {
         indelible mark on the world of software engineering and beyond.
       </h3>
       <img className='profile-img' src={ProfileImg} alt='profile IMG'/>
+      
     </div>
   )
 }
