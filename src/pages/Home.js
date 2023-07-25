@@ -26,16 +26,16 @@ function Home() {
       <div className="profile-container">
         <img className="profile-img" src={ProfileImg} alt="profile IMG" />
         <div className="icons-container">
-          <a href="https://github.com/AleksBulajic" target="_blank" >
+          <a href="https://github.com/AleksBulajic" target="_blank"  rel="noreferrer">
           <FaGithub />
           </a>
           <a href="mailto:aleks.bulajic25@gmail.com">
           <FaEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/aleksandar-bulajic-dev/" target="_blank">
+          <a href="https://www.linkedin.com/in/aleksandar-bulajic-dev/" target="_blank" rel="noreferrer">
           <FaLinkedin />
           </a>
-          <a href="https://docs.google.com/document/d/1vNdSQwZ3pPl924c5X63cXTiD3ofkJk5_OoGWm7_hVa0/edit" target="_blank">
+          <a href="https://docs.google.com/document/d/1vNdSQwZ3pPl924c5X63cXTiD3ofkJk5_OoGWm7_hVa0/edit" target="_blank" rel="noreferrer">
           <FaFileDownload />
           </a>
         </div>
