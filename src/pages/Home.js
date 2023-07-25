@@ -11,11 +11,12 @@ import VanillaTilt from "vanilla-tilt";
 
 function Home() {
   useEffect(() => {
+    // Initialize the tilt effect on the home-container
     VanillaTilt.init(document.querySelector(".home-container"), {
-      max: 25, 
-      speed: 400, 
-      glare: true, 
-      "max-glare": 0.4, 
+      max: 10, // Maximum tilt rotation (degrees)
+      speed: 400, // Speed of the tilt effect
+      glare: true, // Show glare effect
+      "max-glare": 0.4, // Maximum glare opacity
     });
   }, []);
   return (
