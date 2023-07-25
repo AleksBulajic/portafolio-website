@@ -34,14 +34,11 @@
   border-radius: 50%;
 }
 
-/* body {
+.profile-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-} */
+  justify-content:center;
+  gap: 8.5rem;
+}
 
 a {
   color: #3498db;
@@ -51,6 +48,24 @@ a {
 
 a:hover {
   color: #1abc9c; /* Green color on hover */
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icons-container svg {
+  font-size: 24px;
+  color: #3498db;
+  transition: color 0.3s ease;
+}
+
+.icons-container svg:hover {
+  color: #1abc9c;
 }
 
 /* Optional: Add a responsive design for smaller screens */
