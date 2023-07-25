@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Welcome to My Portfolio!
+Portfolio Banner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Me
+Hey there! I'm [Your Name], a passionate and adventurous software engineer based in New York City. Over a decade ago, I embarked on a journey to NYC, seeking new experiences and challenges. With a foundation in loyalty and hard work, I've combined my love for software engineering and travel to create innovative solutions that know no boundaries.
 
-## Available Scripts
+## Projects
+Memory-Card-Game
+Test your memory skills with my interactive Memory Card Game! Match two cards and see how quickly you can complete the game. Built entirely by me using HTML, CSS, and JavaScript. Play Game Here
 
-In the project directory, you can run:
+## Full CRUD Application
+Experience the power of a full CRUD application! I developed this project by integrating a 3rd party API, allowing users to perform Create, Read, Update, and Delete operations through a seamless front-end and back-end interface. Comprehensive research and secure coding ensure a smooth experience. Check it out
 
-### `npm start`
+## MangaVerse
+As a pivotal team member, I contributed to MangaVerse, a dynamic web application that combines JavaScript, MongoDB, and powerful authentication. With skillful back-end setup and integration with a 3rd party API, we achieved full CRUD functionality and a user-friendly interface. Discover MangaVerse
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## IdentityLock
+Step into the future of digital identity with IdentityLock! As team lead and senior developer, I led the creation of this groundbreaking app using React.js, Python, Django, and SQL. Blockchain and AI FinTech Guru provide unique user identities, while decentralized NFT and asset storage ensure secure transactions. Explore IdentityLock
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Skills
 
-### `npm test`
+- Skills
+- React
+- CSS
+- HTML
+- MongoDB
+- Express
+- JavaScript
+- Python
+- SQL
+- Blockchain
+- Web3
+- Axios
+- Solidity
+- Ethers
+- Cors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Contact
+I'm always excited to connect and discuss new opportunities. Feel free to reach out to me via email at aleks.bulajic25@gmail.com or connect with me on LinkedIn.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Let's build something amazing together!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
