@@ -9,6 +9,10 @@ import inititalImg from "../assets/identityLock/homeIdentity.png";
 import "./Projects.css";
 
 function Projects() {
+  const handleProjectButtonClick = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="project-container">
       <div className="project1">
@@ -21,6 +25,28 @@ function Projects() {
           Description: Simple Memory card Game that matches two cards.
         </p>
         <p className="project-tools">Tools used: HTML, CSS, JavaScript</p>
+        <div className="button-container">
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://eclectic-shortbread-27bbb8.netlify.app/"
+              )
+            }
+          >
+            View Deployed Project
+          </button>
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://github.com/AleksBulajic/Memory-card-game"
+              )
+            }
+          >
+            View Github Reposatory
+          </button>
+        </div>
       </div>
       <div className="project2">
         <h1 className="title-project2">NoPayToPlay</h1>
@@ -46,6 +72,28 @@ function Projects() {
           Tools used: HTML, CSS, JavaScript, JavaScript, MnogoDB, Express,
           Node.js, mongoose
         </p>
+        <div className="button-container">
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://illustrious-taffy-70368f.netlify.app/"
+              )
+            }
+          >
+            View Deployed Project
+          </button>
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://github.com/AleksBulajic/FrontendCRUD"
+              )
+            }
+          >
+            View Github Reposatory
+          </button>
+        </div>
       </div>
       <div className="project3">
         <h1 className="title-project3">Manga Verse</h1>
@@ -66,6 +114,28 @@ function Projects() {
           Tools used: React, React Router, Axios, Node.js, Express, MongoDB,
           Heroku, Netlify
         </p>
+        <div className="button-container">
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://dev--dreamy-donut-2e382b.netlify.app/"
+              )
+            }
+          >
+            View Deployed Project
+          </button>
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://github.com/AleksBulajic/mangaVerse"
+              )
+            }
+          >
+            View Github Reposatory
+          </button>
+        </div>
       </div>
       <div className="project4">
         <h1 className="title-project4">Identity Lock</h1>
@@ -85,6 +155,28 @@ function Projects() {
         <p className="project-tools">
           Tools used: React, React Router, Web3, Axios, Python, SQL, Django
         </p>
+        <div className="button-container">
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://calm-churros-9f4679.netlify.app/"
+              )
+            }
+          >
+            View Deployed Project
+          </button>
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://github.com/AleksBulajic/NFT_ID_front-end"
+              )
+            }
+          >
+            View Github Reposatory
+          </button>
+        </div>
       </div>
     </div>
   );

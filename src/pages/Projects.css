@@ -114,3 +114,34 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color:  #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  
+}
+
+.project-button:hover {
+  background-color: #45a049;
+}
+
+.project-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4caf50;
+}
+
+.project-button:active {
+  transform: translateY(2px);
+}
