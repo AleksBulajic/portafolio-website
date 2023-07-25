@@ -10,24 +10,28 @@
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  margin: auto;
 }
 .project2 {
   box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  margin: 0px 250px 0px 250px;
 }
 .project3 {
   box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  margin: 0px 250px 0px 250px;
 }
 .project4 {
   box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  margin: 0px 250px 0px 250px;
 }
 .img-project1 {
   width: 200px;
