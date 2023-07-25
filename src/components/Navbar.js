@@ -16,9 +16,9 @@ function Navbar() {
           <li>
             <Link to="/project">Project</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/contact">Contact</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
