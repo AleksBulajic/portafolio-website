@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import ParticlesComponent from "./components/ParticlesComponent";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
