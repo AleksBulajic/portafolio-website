@@ -2,6 +2,7 @@ import React from "react";
 import memoryGame2 from "../assets/memory-game/memory-game2.png";
 import memoryGame from "../assets/memory-game/memory-game.png";
 import noPayToPlay from "../assets/nopaytoplay/nopaytoplay.png";
+import noPayToPlay2 from "../assets/nopaytoplay/nopaytoplay2.png";
 import SignInPage from "../assets/mangaverse/signinManga.png";
 import homePage from "../assets/mangaverse/homeManga.png";
 import logInPage from "../assets/identityLock/loginIdentity.png";
@@ -52,6 +53,7 @@ function Projects() {
         <h1 className="title-project2">NoPayToPlay</h1>
         <div className="img-container">
           <img className="img-project2" src={noPayToPlay} alt="initial-img" />
+          <img className="img-project2" src={noPayToPlay2} alt="initial-img" />
         </div>
         <p className="project-description">
           Description: Application that uses a 3rd party API and can have a full
