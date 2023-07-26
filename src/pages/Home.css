@@ -7,7 +7,6 @@
   border-radius: 8px;
   background-color: #333;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  
 }
 .home-container:hover{
   transform: translateY(-2px);
@@ -69,13 +68,26 @@ a:hover {
   color: #1abc9c;
 }
 
-/* Optional: Add a responsive design for smaller screens */
+
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
+  .home-container {
+    max-width: 90%; 
+    margin-top: 40px; 
+    padding: 1rem; 
   }
 
-  h3 {
-    font-size: 1rem;
+  .h1-home {
+    font-size: 2.5rem; 
+  }
+  .h3-home {
+    font-size: 1rem; 
+  }
+  .profile-container {
+    flex-direction: column; 
+    gap: 2rem;
+  }
+  .profile-img {
+    width: 150px; 
+    height: 200px;
   }
 }

@@ -34,7 +34,13 @@
 
   @media (max-width: 768px) {
     .nav-bar {
-      flex-direction: column;
+      flex-direction: column; /* Stack the navigation items vertically */
+      padding: 1rem 0; /* Adjust the vertical padding */
+    }
+  
+    .nav-bar li {
+      margin-bottom: 10px; /* Add some spacing between navigation items */
+      text-align: center; /* Center the navigation items */
     }
   }
   

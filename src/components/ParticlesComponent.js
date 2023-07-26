@@ -1,82 +1,78 @@
+// Import required modules and components
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
-// import { loadFull } from "tsparticles"; // loads tsparticles
+import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo, useEffect } from "react";
 
-
+// Define the ParticlesComponent functional component
 const ParticlesComponent = (props) => {
-  // const [library, setLibrary] = useState(undefined);
-
+  // useEffect hook to run once after the component mounts
   useEffect(() => {
-    // Start the particles animation here
+    // Find the particles container element
     const particlesContainer = document.querySelector(".tsparticles-canvas-el");
     if (particlesContainer) {
-      // setLibrary("Container");
-      loadSlim(particlesContainer); // Use the loadSlim function to initialize particles
+      // Load the particles using the tsparticles-slim library
+      loadSlim(particlesContainer);
     }
   }, []);
 
-
+  // useMemo hook to memoize the options object for better performance
   const options = useMemo(() => {
-    // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
-    
+    // Configuration object for the particles animation
     return {
       background: {
-        color: "#000", // this sets a background color for the canvas
+        color: "#000", // Background color of the particles container
       },
       fullScreen: {
-        enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
-        zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
+        enable: true, // Enable particles to cover the full screen
+        zIndex: -1,   // Set the z-index of the particles canvas (layer below other elements)
       },
       interactivity: {
         events: {
           onClick: {
-            enable: true, // enables the click event
-            mode: "push", // adds the particles on click
+            enable: true,   // Enable particles interaction on click
+            mode: "push",   // Particle interaction mode on click (push particles away)
           },
           onHover: {
-            enable: true, // enables the hover event
-            mode: "repulse", // make the particles run away from the cursor
+            enable: true,   // Enable particles interaction on hover
+            mode: "repulse", // Particle interaction mode on hover (repulse particles)
           },
         },
         modes: {
           push: {
-            quantity: 10,  // number of particles to add on click
+            quantity: 10, // Number of particles to push on click
           },
           repulse: {
-            distance: 100, // distance of the particles from the cursor
+            distance: 100, // Distance particles should be repulsed on hover
           },
         },
       },
       particles: {
         links: {
-          enable: true, // enabling this will make particles linked together
-          distance: 200, // maximum distance for linking the particles
+          enable: true,      // Enable particle links (connections between particles)
+          distance: 200,     // Maximum distance for particle links
         },
         move: {
-          enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 1, max: 5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+          enable: true,      // Enable particle movement
+          speed: { min: 1, max: 5 }, // Set the range of particle movement speed
         },
         opacity: {
-          value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
+          value: { min: 0.3, max: 0.7 }, // Set the range of particle opacity
         },
         size: {
-          value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+          value: { min: 1, max: 3 }, // Set the range of particle size
         },
       },
-    }; 
+    };
   }, []);
 
-  // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
+  // useCallback hook to memoize the particlesInit function for better performance
   const particlesInit = useCallback((engine) => {
-      loadSlim(engine);
-    // loadFull(engine); // for this sample the slim version is enough, choose whatever you prefer, slim is smaller in size but doesn't have all the plugins and the mouse trail feature
+    // Load particles using the tsparticles-slim library on the provided engine
+    loadSlim(engine);
   }, []);
 
-  // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
+  // Return the Particles component with the defined options and initialization function
   return <Particles id={props.id} init={particlesInit} options={options} />;
-
 };
 
- 
 export default ParticlesComponent;

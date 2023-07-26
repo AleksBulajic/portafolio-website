@@ -152,3 +152,39 @@
 .project-button:active {
   transform: translateY(2px);
 }
+
+@media (max-width: 576px) {
+  .project-container {
+    gap: 20px; /* Reduce the gap between elements for smaller screens */
+  }
+
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    margin: 0; /* Remove the horizontal margins for individual projects */
+  }
+
+  .img-project1,
+  .img-project2,
+  .img-project3,
+  .img-project4 {
+    width: 150px; /* Adjust the image size for smaller screens */
+    height: 150px;
+  }
+
+  .title-project1,
+  .title-project2,
+  .title-project3,
+  .title-project4 {
+    font-size: 20px; /* Adjust the font size for project titles */
+  }
+
+  .project-button {
+    font-size: 14px; /* Adjust the font size for buttons */
+  }
+
+  .project-description {
+    font-size: 14px; /* Adjust the font size for project descriptions */
+  }
+}
