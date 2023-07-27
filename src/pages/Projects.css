@@ -165,7 +165,9 @@
   .project-container {
     gap: 20px;
   }
-
+  .project{
+    margin-top: 30px
+    }
   .project1,
   .project2,
   .project3,
