@@ -7,7 +7,7 @@
 }
 .project1 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
-  background-color:  #333;
+  background-color: #333;
   padding: 20px;
   border-radius: 8px;
   margin: auto;
@@ -18,21 +18,27 @@
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px;
+  /* margin: 0px 700px 0px 700px */
+  margin-left: 500px;
+  margin-right: 500px;
 }
 .project3 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
-  background-color:  #333;
+  background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px;
+  /* margin: 0px 700px 0px 700px; */
+  margin-left: 500px;
+  margin-right: 500px;
 }
 .project4 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px;
+  /* margin: 0px 700px 0px 700px; */
+  margin-left: 500px;
+  margin-right: 500px;
 }
 .img-project1 {
   width: 200px;
@@ -92,7 +98,7 @@
   font-family: "Arial", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  color:  #3498db;
+  color: #3498db;
   margin-bottom: 10px;
   font-size: 28px;
 }
@@ -114,10 +120,13 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-.project-description{
-  color: #fff
+.project-description {
+  color: #fff;
 }
-.project1:hover, .project2:hover, .project3:hover, .project4:hover {
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
@@ -132,12 +141,11 @@
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  background-color:  #3498db;
+  background-color: #3498db;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 10px;
-  
 }
 
 .project-button:hover {
@@ -155,7 +163,7 @@
 
 @media (max-width: 576px) {
   .project-container {
-    gap: 20px; 
+    gap: 20px;
   }
 
   .project1,
@@ -181,10 +189,10 @@
   }
 
   .project-button {
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   .project-description {
-    font-size: 14px; 
-}
+    font-size: 14px;
+  }
 }
