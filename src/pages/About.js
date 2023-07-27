@@ -10,6 +10,8 @@ import git from "../assets/icons/git.svg"
 import MongoDB from "../assets/icons/MongoDB.png"
 import node from "../assets/icons/Node.js_logo.svg"
 import SQL from "../assets/icons/SQL.svg"
+
+
 function About() {
 
 
