@@ -45,7 +45,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/aleksandar-bulajic-dev/" target="_blank" rel="noreferrer">
           <FaLinkedin />
           </a>
-          <a href="https://docs.google.com/document/d/1vNdSQwZ3pPl924c5X63cXTiD3ofkJk5_OoGWm7_hVa0/edit" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1WSq79luBlzmK7w7fwEGh7yz6FPPJu5ZG/view" target="_blank" rel="noreferrer">
           <FaFileDownload />
           </a>
         </div>
