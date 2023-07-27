@@ -6,18 +6,17 @@
 
 
 
-/* Set the position of the particles container to absolute, so it is positioned relative to its nearest positioned ancestor */
+
 .particles-container {
   position: absolute;
-  
-  /* Position the particles container at the top left corner of its containing element */
+
   top: 0;
   left: 0;
   
-  /* Set the width and height of the particles container to cover the entire containing element */
+
   width: 100%;
   height: 100%;
   
-  /* Set the z-index of the particles container to -1, which places it behind other elements on the page */
+  
   z-index: -1; 
 }
