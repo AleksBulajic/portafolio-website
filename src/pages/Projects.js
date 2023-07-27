@@ -10,6 +10,7 @@ import inititalImg from "../assets/identityLock/homeIdentity.png";
 import "./Projects.css";
 
 function Projects() {
+
   const handleProjectButtonClick = (url) => {
     window.open(url, "_blank");
   };

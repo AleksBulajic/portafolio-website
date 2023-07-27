@@ -41,3 +41,65 @@
     font-size: 1rem;
   }
 }
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.html-icon {
+  width: 50px;
+  height: 50px; 
+  margin: 10px; 
+}
+.javascript-icon {
+  width: 40px; 
+  height: 50px; 
+  margin: 10px;
+}
+.css-icon {
+  width: 50px;
+  height: 50px; 
+  margin: 10px;
+}
+.python-icon {
+  width: 50px; 
+  height: 50px;
+  margin: 10px; 
+}
+
+.react-icon {
+  width: 50px; 
+  height: 50px;
+  margin: 10px; 
+}
+.git-icon {
+  width: 80px; 
+  height: 80px;
+  margin: 10px; 
+}
+.node-icon {
+  width: 80px; 
+  height: 80px;
+  margin: 10px; 
+}
+
+.sql-icon {
+  width: 50px; 
+  height: 50px;
+  margin: 10px; 
+}
+
+.mongo-icon{
+  width: 50px; 
+  height: 50px;
+  margin: 10px
+}
+.django-icon{
+  width: 80px; 
+  height: 80px;
+  margin: 10px
+}
+
