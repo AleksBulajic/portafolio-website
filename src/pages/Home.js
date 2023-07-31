@@ -1,6 +1,7 @@
 import React, { useEffect }from "react";
 import "./Home.css";
 import ProfileImg from "../assets/profilePic/profileImg.jpg";
+import AleksResume from "../assets/resume/Aleks-Resume.pdf"
 import {
   FaGithub,
   FaEnvelope,
@@ -10,6 +11,11 @@ import {
 import VanillaTilt from "vanilla-tilt"; 
 
 function Home() {
+ 
+  const resumeClick = function(){
+
+  }
+
   useEffect(() => {
     // Initialize the tilt effect on the home-container
     VanillaTilt.init(document.querySelector(".home-container"), {
@@ -36,7 +42,7 @@ function Home() {
       <div className="profile-container">
         <img className="profile-img" src={ProfileImg} alt="profile IMG" />
         <div className="icons-container">
-          <a href="https://github.com/AleksBulajic" target="_blank"  rel="noreferrer">
+          <a href="https://github.com/AleksBulajic" download target="_blank"  rel="noreferrer">
           <FaGithub />
           </a>
           <a href="mailto:aleks.bulajic25@gmail.com">
@@ -45,8 +51,8 @@ function Home() {
           <a href="https://www.linkedin.com/in/aleksandar-bulajic-dev/" target="_blank" rel="noreferrer">
           <FaLinkedin />
           </a>
-          <a href="https://drive.google.com/file/d/1WSq79luBlzmK7w7fwEGh7yz6FPPJu5ZG/view" target="_blank" rel="noreferrer">
-          <FaFileDownload />
+          <a href={AleksResume} download target="_blank" rel="noreferrer">
+            <FaFileDownload />
           </a>
         </div>
       </div>
