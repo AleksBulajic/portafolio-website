@@ -10,36 +10,37 @@
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: auto;
-  margin-top: 15px;
+  margin: 15px auto; /* Adjust vertical margin to create space between projects */
+  max-width: 600px; /* Set a maximum width for projects */
 }
+
 .project2 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px
-  /* margin-left: 500px;
-  margin-right: 500px; */
+  margin: 15px auto; /* Adjust vertical margin to create space between projects */
+  max-width: 600px; /* Set a maximum width for projects */
 }
+
 .project3 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px;
-  /* margin-left: 500px;
-  margin-right: 500px; */
+  margin: 15px auto; /* Adjust vertical margin to create space between projects */
+  max-width: 600px; /* Set a maximum width for projects */
 }
+
 .project4 {
   box-shadow: 10px 4px 8px 4px rgba(0, 0, 0, 0.1);
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  margin: 0px 700px 0px 700px;
-  /* margin-left: 500px;
-  margin-right: 500px; */
+  margin: 15px auto; /* Adjust vertical margin to create space between projects */
+  max-width: 600px; /* Set a maximum width for projects */
 }
+
 .img-project1 {
   width: 200px;
   height: 200px;
@@ -161,7 +162,7 @@
   transform: translateY(2px);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .project-container {
     gap: 20px;
   }
@@ -172,7 +173,8 @@
   .project2,
   .project3,
   .project4 {
-    margin: 0;
+    margin: 10x auto;
+    padding: 15px
   }
 
   .img-project1,
@@ -198,3 +200,44 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .project-container {
+    gap: 20px;
+  }
+  .project{
+    margin-top: 30px
+    }
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    margin: 10x auto;
+    padding: 15px
+  }
+
+  .img-project1,
+  .img-project2,
+  .img-project3,
+  .img-project4 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .title-project1,
+  .title-project2,
+  .title-project3,
+  .title-project4 {
+    font-size: 20px;
+  }
+
+  .project-button {
+    font-size: 14px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+}
+
+
