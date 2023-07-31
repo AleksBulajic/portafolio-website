@@ -12,9 +12,7 @@ import VanillaTilt from "vanilla-tilt";
 
 function Home() {
  
-  const resumeClick = function(){
 
-  }
 
   useEffect(() => {
     // Initialize the tilt effect on the home-container
