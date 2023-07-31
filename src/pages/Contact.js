@@ -6,6 +6,7 @@ import {
   FaFileDownload,
 } from "react-icons/fa";
 import "./Contact.css";
+import AleksResume from "../assets/resume/Aleks-Resume.pdf";
 
 function Contact() {
   return (
@@ -29,9 +30,9 @@ function Contact() {
             </a>
           </div>
           <div className="icon-item">
-            <a href="https://docs.google.com/document/d/1vNdSQwZ3pPl924c5X63cXTiD3ofkJk5_OoGWm7_hVa0/edit" target="_blank" rel="noreferrer">
-              <FaFileDownload />
-            </a>
+          <a href={AleksResume} download target="_blank" rel="noreferrer">
+            <FaFileDownload />
+          </a>
           </div>
         </div>
       </div>
