@@ -10,29 +10,36 @@ import inititalImg from "../assets/identityLock/homeIdentity.png";
 import "./Projects.css";
 
 function Projects() {
-
   const handleProjectButtonClick = (url) => {
     window.open(url, "_blank");
   };
 
   return (
     <div className="project-container">
-      <div className="project1">
-        <h1 className="title-project1">Memory-Card-Game</h1>
+      <div className="project4">
+        <h1 className="title-project4">Identity Lock</h1>
         <div className="img-container">
-          <img className="img-project1" src={memoryGame2} alt="initial-img" />
-          <img className="img-project1" src={memoryGame} alt="initial-img" />
+          <img className="img-project4" src={logInPage} alt="initial-img" />
+          <img className="img-project4" src={inititalImg} alt="initial-img" />
         </div>
         <p className="project-description">
-          Description: Simple Memory card Game that matches two cards.
+          Description: As team lead, I led the creation of IdentityLock, an
+          innovative app utilizing React.js for seamless front-end interactions
+          and SQL, Python, and Django for robust back-end data management. NFTs,
+          blockchain, and AI FinTech Guru provided unique user identities.
+          Private keys ensured secure transactions, while Web3, Axios, Solidity,
+          Ethers, and Cors facilitated decentralized NFT and asset storage.
+          Experience the future of digital identity!
         </p>
-        <p className="project-tools">Tools used: HTML, CSS, JavaScript</p>
+        <p className="project-tools">
+          Tools used: React, React Router, Web3, Axios, Python, SQL, Django
+        </p>
         <div className="button-container">
           <button
             className="project-button"
             onClick={() =>
               handleProjectButtonClick(
-                "https://eclectic-shortbread-27bbb8.netlify.app/"
+                "https://calm-churros-9f4679.netlify.app/"
               )
             }
           >
@@ -42,7 +49,7 @@ function Projects() {
             className="project-button"
             onClick={() =>
               handleProjectButtonClick(
-                "https://github.com/AleksBulajic/Memory-card-game"
+                "https://github.com/AleksBulajic/NFT_ID_front-end"
               )
             }
           >
@@ -50,6 +57,7 @@ function Projects() {
           </button>
         </div>
       </div>
+
       <div className="project2">
         <h1 className="title-project2">NoPayToPlay</h1>
         <div className="img-container">
@@ -140,30 +148,22 @@ function Projects() {
           </button>
         </div>
       </div>
-      <div className="project4">
-        <h1 className="title-project4">Identity Lock</h1>
+      <div className="project1">
+        <h1 className="title-project1">Memory-Card-Game</h1>
         <div className="img-container">
-          <img className="img-project4" src={logInPage} alt="initial-img" />
-          <img className="img-project4" src={inititalImg} alt="initial-img" />
+          <img className="img-project1" src={memoryGame2} alt="initial-img" />
+          <img className="img-project1" src={memoryGame} alt="initial-img" />
         </div>
         <p className="project-description">
-          Description: As team lead, I led the creation of IdentityLock, an
-          innovative app utilizing React.js for seamless front-end interactions
-          and SQL, Python, and Django for robust back-end data management. NFTs,
-          blockchain, and AI FinTech Guru provided unique user identities.
-          Private keys ensured secure transactions, while Web3, Axios, Solidity,
-          Ethers, and Cors facilitated decentralized NFT and asset storage.
-          Experience the future of digital identity!
+          Description: Simple Memory card Game that matches two cards.
         </p>
-        <p className="project-tools">
-          Tools used: React, React Router, Web3, Axios, Python, SQL, Django
-        </p>
+        <p className="project-tools">Tools used: HTML, CSS, JavaScript</p>
         <div className="button-container">
           <button
             className="project-button"
             onClick={() =>
               handleProjectButtonClick(
-                "https://calm-churros-9f4679.netlify.app/"
+                "https://eclectic-shortbread-27bbb8.netlify.app/"
               )
             }
           >
@@ -173,7 +173,7 @@ function Projects() {
             className="project-button"
             onClick={() =>
               handleProjectButtonClick(
-                "https://github.com/AleksBulajic/NFT_ID_front-end"
+                "https://github.com/AleksBulajic/Memory-card-game"
               )
             }
           >
