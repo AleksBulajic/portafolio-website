@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 .home-container {
-  /* font-family: "Arial", sans-serif; */
+  font-family: "Robot", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   margin-top: 70px;
@@ -24,8 +27,9 @@
 
 .h3-home {
   font-size: 1.2rem;
-  margin-bottom: 1.2rem;
-  color:  #fff;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 1.5rem;
 }
 .profile-img {
   width: 200px;

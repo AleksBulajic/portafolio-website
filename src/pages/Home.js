@@ -26,7 +26,7 @@ function Home() {
   return (
     <div className="home-container">
       <h1 className="h1-home">Aleksandar Bulajic</h1>
-      <h3 className="h3-home">
+      <p className="h3-home">
         As a passionate and skilled full stack developer, I embark on exciting
         journeys to craft seamless digital experiences. Driven by an insatiable
         curiosity and armed with expertise in JavaScript, HTML, CSS, MongoDB,
@@ -36,7 +36,7 @@ function Home() {
         bounds, and I bridge cultures and unite technology with human
         connection, leaving an indelible mark on the world of software
         engineering and beyond.
-      </h3>
+      </p>
       <div className="profile-container">
         <img className="profile-img" src={ProfileImg} alt="profile IMG" />
         <div className="icons-container">

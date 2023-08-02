@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 
 .about-container {
-  font-family: "Arial", sans-serif;
+  font-family: "Robot", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   margin-top: 70px;
