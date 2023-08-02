@@ -32,8 +32,9 @@ function Projects() {
           Experience the future of digital identity!
         </p>
         <p className="project-tools">
-          Tools used: React, React Router, Web3, Axios, Python, SQL, Django
+        Tools used: React, React Router, Web3, Axios, Python, SQL, Django
         </p>
+        <p className="project-tools"> Requirements for app: 🦊 MetaMask, crypto called: SepoliaETH  </p>
         <div className="button-container">
           <button
             className="project-button"
@@ -80,7 +81,7 @@ function Projects() {
           seamless integration with the 3rd party API.
         </p>
         <p className="project-tools">
-          Tools used: HTML, CSS, JavaScript, JavaScript, MnogoDB, Express,
+        <strong> Tools used:</strong>  HTML, CSS, JavaScript, JavaScript, MnogoDB, Express,
           Node.js, mongoose
         </p>
         <div className="button-container">
@@ -122,7 +123,7 @@ function Projects() {
           application.
         </p>
         <p className="project-tools">
-          Tools used: React, React Router, Axios, Node.js, Express, MongoDB,
+        <strong> Tools used:</strong>  React, React Router, Axios, Node.js, Express, MongoDB,
           Heroku, Netlify
         </p>
         <div className="button-container">
@@ -157,7 +158,7 @@ function Projects() {
         <p className="project-description">
           Description: Simple Memory card Game that matches two cards.
         </p>
-        <p className="project-tools">Tools used: HTML, CSS, JavaScript</p>
+        <p className="project-tools"><strong> Tools used:</strong>  HTML, CSS, JavaScript</p>
         <div className="button-container">
           <button
             className="project-button"
