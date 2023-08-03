@@ -7,6 +7,8 @@ import SignInPage from "../assets/mangaverse/signinManga.png";
 import homePage from "../assets/mangaverse/homeManga.png";
 import logInPage from "../assets/identityLock/loginIdentity.png";
 import inititalImg from "../assets/identityLock/homeIdentity.png";
+import gelato1 from "../assets/gelato/gelato1.png";
+import gelato2 from "../assets/gelato/gelato2.png";
 import "./Projects.css";
 
 function Projects() {
@@ -142,6 +144,39 @@ function Projects() {
             onClick={() =>
               handleProjectButtonClick(
                 "https://github.com/AleksBulajic/mangaVerse"
+              )
+            }
+          >
+            View Github Reposatory
+          </button>
+        </div>
+      </div>
+      <div className="project5">
+        <h1 className="title-project5">Gelato Parlor Store</h1>
+        <div className="img-container">
+          <img className="img-project5" src={gelato1} alt="initial-img" />
+          <img className="img-project5" src={gelato2} alt="initial-img" />
+        </div>
+        <p className="project-description">
+          Description: Createted For Mobiel View /Created a Mock up of a gelato Store
+        </p>
+        <p className="project-tools"><strong> Tools used:</strong>React, CSS, JavaScript</p>
+        <div className="button-container">
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://gelato-parlor-uxui-02b510a006b3.herokuapp.com/"
+              )
+            }
+          >
+            View Deployed Project
+          </button>
+          <button
+            className="project-button"
+            onClick={() =>
+              handleProjectButtonClick(
+                "https://github.com/AleksBulajic/Gelato-Parlor"
               )
             }
           >
