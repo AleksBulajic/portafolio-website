@@ -4,16 +4,27 @@ import html from "programming-languages-logos/src/html/html.svg";
 import javascript from "programming-languages-logos/src/javascript/javascript.svg";
 import css from "programming-languages-logos/src/css/css.svg";
 import python from "programming-languages-logos/src/python/python.svg";
-import reactLogo from "../assets/icons/reactLogo.png"
-import django from "../assets/icons/layer1.svg"
-import git from "../assets/icons/git.svg"
-import MongoDB from "../assets/icons/MongoDB.png"
-import node from "../assets/icons/Node.js_logo.svg"
-import SQL from "../assets/icons/SQL.svg"
-
+import reactLogo from "../assets/icons/reactLogo.png";
+import django from "../assets/icons/layer1.svg";
+import git from "../assets/icons/git.svg";
+import MongoDB from "../assets/icons/MongoDB.png";
+import node from "../assets/icons/Node.js_logo.svg";
+import SQL from "../assets/icons/SQL.svg";
+import { motion } from "framer-motion";
 
 function About() {
-
+  const images = [
+    { src: html, alt: "HTML icon", className: "html-icon" },
+    { src: javascript, alt: "JavaScript icon", className: "javascript-icon" },
+    { src: css, alt: "CSS icon", className: "css-icon" },
+    { src: python, alt: "Python icon", className: "python-icon" },
+    { src: reactLogo, alt: "React icon", className: "react-icon" },
+    { src: django, alt: "Django icon", className: "django-icon" },
+    { src: git, alt: "Git icon", className: "git-icon" },
+    { src: MongoDB, alt: "MongoDB icon", className: "mongo-icon" },
+    { src: node, alt: "Node.js icon", className: "node-icon" },
+    { src: SQL, alt: "SQL icon", className: "sql-icon" },
+  ];
 
   return (
     <>
@@ -35,16 +46,24 @@ function About() {
         </p>
       </div>
       <div className="icons-container">
-        <img className="html-icon" src={html} alt="icon" />
-        <img className="javascript-icon" src={javascript} alt="icon"  />
-        <img className="css-icon" src={css} alt="icon"  />
-        <img className="python-icon" src={python}  alt="icon" />
-        <img className="react-icon" src={reactLogo} alt="icon" />
-        <img className="django-icon" src={django} alt="icon" />
-        <img className="git-icon" src={git} alt="icon" />
-        <img className="mongo-icon" src={MongoDB} alt="icon" />
-        <img className="node-icon" src={node} alt="icon" />
-        <img className="sql-icon" src={SQL} alt="icon" />
+        <motion.div initial="hidden" animate="visible">
+          {images.map((image, index) => (
+            <motion.img
+              key={index}
+              src={image.src}
+              alt={image.alt}
+              className={image.className}
+              imgStyle={{
+                width: "50px",
+                height: "50px",
+                margin: "10px",
+              }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            />
+          ))}
+        </motion.div>
       </div>
     </>
   );
