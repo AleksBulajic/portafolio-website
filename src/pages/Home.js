@@ -28,7 +28,7 @@ function Home() {
       <h1 className="h1-home">Aleksandar Bulajic</h1>
       <p className="h3-home">
         As a passionate and skilled full stack developer, I embark on exciting
-        journeys to craft seamless digital experiences. Driven by an insatiable
+        journeys to craft seamless digital experiences. Driven by an incredible
         curiosity and armed with expertise in JavaScript, HTML, CSS, MongoDB,
         Node.js, Express, Mongoose, React.js, Python and Django I blend
         creativity with technical proficiency to transcend borders and push
