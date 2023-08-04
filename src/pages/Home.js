@@ -15,7 +15,6 @@ function Home() {
 
 
   useEffect(() => {
-    // Initialize the tilt effect on the home-container
     VanillaTilt.init(document.querySelector(".home-container"), {
       max: 10, // Maximum tilt rotation (degrees)
       speed: 400, // Speed of the tilt effect
@@ -23,6 +22,8 @@ function Home() {
       "max-glare": 0.4, // Maximum glare opacity
     });
   }, []);
+
+  
   return (
     <div className="home-container">
       <h1 className="h1-home">Aleksandar Bulajic</h1>
