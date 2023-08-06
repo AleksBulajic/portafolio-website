@@ -1,7 +1,7 @@
 # Welcome to My Portfolio!
-
-
-
+<p>
+  <a href="https://aleksandar-bulajic.netlify.app/" targer="_blank">Visit my website</a>
+</p>
 ## About Me
 Hey there! I'm Aleksandar Bulajic, a passionate and adventurous software engineer based in New York City. Over a decade ago, I embarked on a journey to NYC, seeking new experiences and challenges. With a foundation in loyalty and hard work, I've combined my love for software engineering and travel to create innovative solutions that know no boundaries.
 
