@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import html from "programming-languages-logos/src/html/html.svg";
 import javascript from "programming-languages-logos/src/javascript/javascript.svg";
-import css from "programming-languages-logos/src/css/css.svg";
 import python from "programming-languages-logos/src/python/python.svg";
 import reactLogo from "../assets/icons/reactLogo.png";
 import django from "../assets/icons/layer1.svg";
@@ -10,13 +9,14 @@ import git from "../assets/icons/git.svg";
 import MongoDB from "../assets/icons/MongoDB.png";
 import node from "../assets/icons/Node.js_logo.svg";
 import SQL from "../assets/icons/SQL.svg";
+import css from "../assets/icons/css.png";
 import { motion } from "framer-motion";
 
 function About() {
   const images = [
     { src: html, alt: "HTML icon", className: "html-icon" },
+    { src: css, alt: "CSS icon", className: "css-icon"},
     { src: javascript, alt: "JavaScript icon", className: "javascript-icon" },
-    { src: css, alt: "CSS icon", className: "css-icon" },
     { src: python, alt: "Python icon", className: "python-icon" },
     { src: reactLogo, alt: "React icon", className: "react-icon" },
     { src: django, alt: "Django icon", className: "django-icon" },
