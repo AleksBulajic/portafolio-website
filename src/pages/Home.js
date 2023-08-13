@@ -28,15 +28,7 @@ function Home() {
     <div className="home-container">
       <h1 className="h1-home">Aleksandar Bulajic</h1>
       <p className="h3-home">
-        As a passionate and skilled full stack developer, I embark on exciting
-        journeys to craft seamless digital experiences. Driven by an incredible
-        curiosity and armed with expertise in JavaScript, HTML, CSS, MongoDB,
-        Node.js, Express, Mongoose, React.js, Python and Django I blend
-        creativity with technical proficiency to transcend borders and push
-        boundaries. My commitment to delivering exceptional results knows no
-        bounds, and I bridge cultures and unite technology with human
-        connection, leaving an indelible mark on the world of software
-        engineering and beyond.
+      From a small village in the peninsula of Croatia, I moved to New York City at age 18 in search for a new adventure. Working as a dishwasher in a local bar, I worked my way up in becoming a Manager at various Culinary Institutes in the city. I’m driven by new challenges and thrived in the desire to build a life for myself in this country. Now, embarking on a new adventure of a software engineering career, I found joy in problem-solving through technology and creating applications that can help improve the day to day life.
       </p>
       <div className="profile-container">
         <img className="profile-img" src={ProfileImg} alt="profile IMG" />
