@@ -1,109 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-
-
 .about-container {
-  font-family: "Robot", sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-top: 70px;
-  padding: 2rem;
-  transition: transform 0.3s ease-in-out;
-  border-radius: 8px;
-  background-color: #333;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  
-  
-}
-.about-container:hover {
-  transform: translateY(-2px);
-}
-
-.h1-about {
-  font-size: 3rem;
-  color: #3498db;
-  text-align: center;
-  margin-bottom: 2rem;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 0.5rem;
-}
-
-.p-about {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #fff;
-  margin-bottom: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
-.icons-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2vw;
+}
+.about-text {
+  margin-left: 10vw;
+  margin-bottom: 10vw;
+}
+.profile-pic {
+  position: relative;
+  margin: 0 auto;
+  margin-left: 13vw;
+  margin-top: 2vw;
+}
+@media only screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-text {
+    margin-left: 5vw;
+  }
+
+  .profile-pic {
+    margin-left: 5vw;
+  }
+
+  .profile-img {
+    width: 80%;
+  }
 }
 
+.h1-ciao {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 100px 0 0 110px;
+}
+.p-name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 18px 0 0 110px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 110px;
+}
+
+.icon-container svg {
+  font-size: 35px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.icon-container svg:hover {
+  color: #1abc9c;
+}
+.profile-img {
+  width: 450px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  margin-top: -2vw;
+}
 
 .html-icon {
   width: 50px;
   height: 61px;
-  margin: 10px; 
+  margin: 2vw;
 }
 .javascript-icon {
-  width: 40px; 
-  height: 50px; 
-  margin: 10px;
+  width: 40px;
+  height: 50px;
+  margin: 2vw;
 }
 .css-icon {
   width: 50px;
-  height: 50px; 
-  margin: 10px;
+  height: 50px;
+  margin: 2vw;
 }
 .python-icon {
-  width: 50px; 
+  width: 50px;
   height: 50px;
-  margin: 10px; 
+  margin: 2vw;
 }
 
 .react-icon {
-  width: 50px; 
+  width: 50px;
   height: 50px;
-  margin: 10px; 
+  margin: 2vw;
 }
 .git-icon {
-  width: 80px; 
+  width: 80px;
   height: 80px;
-  margin: 10px; 
+  margin: 1vw;
 }
 .node-icon {
-  width: 80px; 
+  width: 80px;
   height: 80px;
-  margin: 10px; 
+  margin: 1vw;
 }
 
 .sql-icon {
-  width: 50px; 
+  width: 50px;
   height: 50px;
-  margin: 10px; 
+  margin: 2vw;
 }
 
-.mongo-icon{
-  width: 90px; 
+.mongo-icon {
+  width: 90px;
   height: 80px;
-  margin: 10px
+  margin: 1vw;
 }
-.django-icon{
-  width: 80px; 
+.django-icon {
+  width: 80px;
   height: 80px;
-  margin: 10px
+  margin: 1vw;
 }
 
+.about-me-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10vw;
+  max-width: 60vw;
+}
+.about-svg-white {
+  margin-left: 6vw;
+  margin-bottom: -1vw;
+  margin-top: 2vw;
+}
+.view-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 349px;
+  height: 83px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e96699;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  margin-top: 28px;
+  margin-bottom: 65px;
+}
+
+.arrow-svg {
+  width: 50px;
+  height: 40.001px;
+  flex-shrink: 0;
+  background: #e96699;
+  color: #000;
+  margin-left: 1vw;
+}
+.bfp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15vw;
+}
+.strong-project {
+  font-weight: 900;
+  background: #e96699; 
+}

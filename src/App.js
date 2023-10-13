@@ -1,25 +1,24 @@
 import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
-import Projects from "./pages/Projects";
-import ParticlesComponent from "./components/ParticlesComponent";
-import Contact from "./pages/Contact";
+import Work from "./pages/Work";
+// import ParticlesComponent from "./components/ParticlesComponent";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="particles-container">
-        <ParticlesComponent id="particles-container" />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/project" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+  
+        <Route path="/" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/resume" element={<Resume/>} />
       </Routes>
     </>
   );

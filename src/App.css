@@ -2,12 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0 ;
+  background:  #4B818D;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
+  background:  #4B818D;
 }
 
 

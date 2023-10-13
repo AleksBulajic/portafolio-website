@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 .home-container {
@@ -53,8 +53,8 @@ a {
 
 a:hover {
   color: #1abc9c; /* Green color on hover */
-}
 
+/* 
 .icons-container {
   display: flex;
   align-items: center;
@@ -95,4 +95,4 @@ a:hover {
     width: 150px; 
     height: 200px;
   }
-}
+} */ 
