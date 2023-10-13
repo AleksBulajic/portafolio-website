@@ -129,7 +129,7 @@ function About() {
       <NavLink to="/work" className="work-link">
         <div className="bfp">
           <p className="view-project">
-            <strong className="strong-project">VIEW PROJECTS </strong> {"  "}
+            VIEW PROJECTS  {"  "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"

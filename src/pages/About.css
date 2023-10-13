@@ -152,6 +152,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 900;
   width: 349px;
   height: 83px;
   flex-shrink: 0;
@@ -159,9 +160,9 @@
   background: #e96699;
   color: #000;
   font-family: Roboto;
-  font-size: 30px;
+  font-size: 32px;
   margin-top: 28px;
-  
+  margin-bottom: 181px;
 }
 
 .arrow-svg {
@@ -180,5 +181,8 @@
 }
 .strong-project {
   font-weight: 900;
-  background: #e96699; 
+  background: #e96699;
+}
+.work-link {
+  text-decoration: none;
 }
