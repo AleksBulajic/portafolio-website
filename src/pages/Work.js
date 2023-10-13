@@ -19,8 +19,8 @@ function Projects() {
   return (
     <>
       {" "}
-      <div className="resume-container">
-        <h1 className="resume-text">UNDER CONSTRUCTION 👷🏼‍♂️🚧</h1>
+      <div className="work-container">
+        <h1 className="work-text">UNDER CONSTRUCTION 👷🏼‍♂️🚧</h1>
         <iframe
           src="https://giphy.com/embed/sOaKnjmTTPsBqM1DSA"
           width="480"

@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2vw;
+  margin-top: 6vw;
 }
 .about-text {
   margin-left: 10vw;
   margin-bottom: 10vw;
+  margin-top: 4vw;
 }
 .profile-pic {
   position: relative;
@@ -64,55 +65,55 @@
 }
 
 .html-icon {
-  width: 50px;
+  width: 60px;
   height: 61px;
   margin: 2vw;
 }
 .javascript-icon {
-  width: 40px;
+  width: 50px;
   height: 50px;
   margin: 2vw;
 }
 .css-icon {
-  width: 50px;
+  width: 60px;
   height: 50px;
   margin: 2vw;
 }
 .python-icon {
-  width: 50px;
+  width: 60px;
   height: 50px;
   margin: 2vw;
 }
 
 .react-icon {
-  width: 50px;
+  width: 60px;
   height: 50px;
   margin: 2vw;
 }
 .git-icon {
-  width: 80px;
+  width: 90px;
   height: 80px;
   margin: 1vw;
 }
 .node-icon {
-  width: 80px;
+  width: 90px;
   height: 80px;
   margin: 1vw;
 }
 
 .sql-icon {
-  width: 50px;
+  width: 60px;
   height: 50px;
   margin: 2vw;
 }
 
 .mongo-icon {
-  width: 90px;
+  width: 100px;
   height: 80px;
   margin: 1vw;
 }
 .django-icon {
-  width: 80px;
+  width: 90px;
   height: 80px;
   margin: 1vw;
 }
