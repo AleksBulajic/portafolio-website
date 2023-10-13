@@ -14,23 +14,6 @@
   margin-left: 13vw;
   margin-top: 2vw;
 }
-@media only screen and (max-width: 600px) {
-  .about-container {
-    flex-direction: column;
-  }
-
-  .about-text {
-    margin-left: 5vw;
-  }
-
-  .profile-pic {
-    margin-left: 5vw;
-  }
-
-  .profile-img {
-    width: 80%;
-  }
-}
 
 .h1-ciao {
   color: #fff;
@@ -69,12 +52,13 @@
   color: #1abc9c;
 }
 .profile-img {
-  width: 450px;
+  width: 100%;
+  max-width: 400px;
 }
 .icons-container {
   display: flex;
-  justify-content: space-around;
-
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-top: -2vw;
 }
@@ -136,7 +120,7 @@
 .about-me-text {
   color: #fff;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -178,6 +162,7 @@
   justify-content: flex-end;
   align-items: center;
   margin-right: 15vw;
+  margin-left: 85vw;
 }
 .strong-project {
   font-weight: 900;
@@ -187,7 +172,7 @@
   text-decoration: none;
 }
 
-.pink-mark-svg{
+.pink-mark-svg {
   width: 100px;
   margin-left: 75vw;
   margin-top: -14vw;

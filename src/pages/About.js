@@ -139,8 +139,9 @@ function About() {
           fill="#E96699"
         />
       </svg>
-      <NavLink to="/work" className="work-link">
+     
         <div className="bfp">
+        <NavLink to="/work" className="work-link">
           <p className="view-project">
             VIEW PROJECTS {"  "}
             <svg
@@ -157,8 +158,9 @@ function About() {
               />
             </svg>
           </p>
+          </NavLink>
         </div>
-      </NavLink>
+     
     </>
   );
 }
