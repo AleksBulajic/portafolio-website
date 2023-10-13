@@ -153,8 +153,8 @@
   align-items: center;
   justify-content: center;
   font-weight: 900;
-  width: 349px;
-  height: 83px;
+  width: 320px;
+  height: 70px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #e96699;
@@ -166,7 +166,7 @@
 }
 
 .arrow-svg {
-  width: 50px;
+  width: 42px;
   height: 40.001px;
   flex-shrink: 0;
   background: #e96699;
@@ -185,4 +185,10 @@
 }
 .work-link {
   text-decoration: none;
+}
+
+.pink-mark-svg{
+  width: 100px;
+  margin-left: 75vw;
+  margin-top: -14vw;
 }
