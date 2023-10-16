@@ -36,7 +36,12 @@ function Projects() {
       <div className="carousels-container">
         <Slider {...settings}>
           <div className="project-1-container">
+            <a   href="https://github.com/AleksBulajic/NFT_ID_front-end"
+              
+              target="_blank"
+              rel="noreferrer">
             <img className="img-project1" src={logInPage} alt="initial-img" />
+            </a>
             <h1 className="project-title">IDENTITY LOCK</h1>
             <h3 className="project-tools">
               React ● React Router ● Web3 ● Axios ● Python ● SQL ● Django
@@ -56,7 +61,12 @@ function Projects() {
             </p>
           </div>
           <div className="project-2-container">
+          <a   href="https://github.com/AleksBulajic/FrontendCRUD"
+              
+              target="_blank"
+              rel="noreferrer">
             <img className="img-project2" src={noPayToPlay} alt="initial-img" />
+            </a>
             <h1 className="project-title">NO PAY TO PLAY</h1>
             <h3 className="project-tools">
               {" "}
@@ -81,7 +91,12 @@ function Projects() {
             </p>
           </div>
           <div className="project-3-container">
+          <a   href="https://github.com/AleksBulajic/mangaVerse"
+              
+              target="_blank"
+              rel="noreferrer">
             <img className="img-project3" src={SignInPage} alt="initial-img" />
+            </a>
             <h1 className="project-title">MANGA VERSE</h1>
             <h3 className="project-tools">
               {" "}
@@ -100,7 +115,12 @@ function Projects() {
             </p>
           </div>
           <div className="project-4-container">
+          <a   href="https://github.com/AleksBulajic/study-flashcards"
+              
+              target="_blank"
+              rel="noreferrer">
             <img className="img-project4" src={studyhub} alt="initial-img" />
+            </a>
             <h1 className="project-title">STUDY-HUB</h1>
             <h3 className="project-tools">
               {" "}
@@ -119,7 +139,12 @@ function Projects() {
             </p>
           </div>
           <div className="project-5-container">
+          <a   href="https://github.com/AleksBulajic/Memory-card-game"
+              
+              target="_blank"
+              rel="noreferrer">
             <img className="img-project5" src={memoryGame2} alt="initial-img" />
+            </a>
             <h1 className="project-title">MEMORY CARD GAME</h1>
             <h3 className="project-tools"> HTML ● CSS ● JavaScript</h3>
             <p className="project-description">
