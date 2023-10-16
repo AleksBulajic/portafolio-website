@@ -1,12 +1,12 @@
 
 /* Modify the arrow styles and adjust the positioning */
 .slick-prev {
-    left: 500px; 
+    left: 300px; 
     z-index: 1; 
   }
   
   .slick-next {
-    right: 500px; 
+    right: 300px; 
     z-index: 1; 
   }
   
