@@ -10,16 +10,18 @@ import logInPage from "../assets/identityLock/loginIdentity.png";
 // import inititalImg from "../assets/identityLock/homeIdentity.png";
 // import gelato1 from "../assets/gelato/gelato1.png";
 // import gelato2 from "../assets/gelato/gelato2.png";
+import studyhub from "../assets/studyhub/studyhub.png";
 import "./Work.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './CustomSlider.css';
+import "./CustomSlider.css";
 
 function Projects() {
   const settings = {
-    dots: true,
+    autoplay: true,
     infinite: true,
-    speed: 500,
+    pauseOnHover: true,
+    speed: 400,
     slidesToShow: 1,
     slideToScroll: 1,
   };
@@ -37,7 +39,7 @@ function Projects() {
             <img className="img-project1" src={logInPage} alt="initial-img" />
             <h1 className="project-title">IDENTITY LOCK</h1>
             <h3 className="project-tools">
-              React ● React ● Router ● Web3 ● Axios ● Python ● SQL ● Django
+              React ● React Router ● Web3 ● Axios ● Python ● SQL ● Django
             </h3>
             <h4>
               Requirements for app: 🦊 MetaMask, crypto called: SepoliaETH{" "}
@@ -58,8 +60,7 @@ function Projects() {
             <h1 className="project-title">NO PAY TO PLAY</h1>
             <h3 className="project-tools">
               {" "}
-              HTML ● CSS ● JavaScript ● JavaScript ● MnogoDB ● Express ● Node.js
-              ● mongoose
+              HTML ● CSS ● JavaScript ● MnogoDB ● Express ● Node.js ● mongoose
             </h3>
             <p className="project-description">
               {" "}
@@ -84,7 +85,7 @@ function Projects() {
             <h1 className="project-title">MANGA VERSE</h1>
             <h3 className="project-tools">
               {" "}
-              React ● React ● Router ● Axios ● Node.js ● Express ● MongoDB ●
+              React ● React Router ● Axios ● Node.js ● Express ● MongoDB ●
               Heroku ● Netlify
             </h3>
             <p className="project-description">
@@ -99,7 +100,26 @@ function Projects() {
             </p>
           </div>
           <div className="project-4-container">
-            <img className="img-project1" src={memoryGame2} alt="initial-img" />
+            <img className="img-project4" src={studyhub} alt="initial-img" />
+            <h1 className="project-title">STUDY-HUB</h1>
+            <h3 className="project-tools">
+              {" "}
+              React ● CSS ● JavaScript ● MnogoDB ● Express ● Node.js ● mongoose
+            </h3>
+            <p className="project-description">
+              {" "}
+              StudyHub is an interactive learning application built using a
+              combination of HTML, CSS, and JavaScript done in React. It leverages the power
+              of MongoDB, Express, Node.js, and Mongoose to provide a seamless
+              experience for users. With its intuitive interface, users can
+              study various topics by viewing questions on one side and their
+              corresponding answers on the other. The application aims to
+              facilitate efficient learning and retention through an engaging
+              and user-friendly approach.
+            </p>
+          </div>
+          <div className="project-5-container">
+            <img className="img-project5" src={memoryGame2} alt="initial-img" />
             <h1 className="project-title">MEMORY CARD GAME</h1>
             <h3 className="project-tools"> HTML ● CSS ● JavaScript</h3>
             <p className="project-description">
