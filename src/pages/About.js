@@ -52,7 +52,7 @@ function About() {
           <div className="icon-container">
             <a
               href="https://github.com/AleksBulajic"
-              download
+              
               target="_blank"
               rel="noreferrer"
             >

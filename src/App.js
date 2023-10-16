@@ -15,7 +15,6 @@ function App() {
       <div className="particles-container">
       </div>
       <Routes>
-  
         <Route path="/" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/resume" element={<Resume/>} />
