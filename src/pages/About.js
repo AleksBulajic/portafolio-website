@@ -39,6 +39,10 @@ function About() {
     });
   }, []);
 
+//TODO make the project view button smaller 
+//TODO remove the small-pink-svg
+
+
   return (
     <>
       <div className="about-container">
