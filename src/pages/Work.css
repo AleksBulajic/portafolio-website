@@ -24,20 +24,20 @@
   max-width: 50%;
   height: auto;
   border-radius: 5px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
 }
 .img-project1:hover,
 .img-project2:hover,
 .img-project3:hover,
 .img-project4:hover,
 .img-project5:hover {
-  cursor: pointer;
-  transform: scale(1.05); 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
 }
 
 .img-project1{
-  max-width: 25%;
+  max-width: 20%;
 }
 .img-project2{
   max-width: 22%;
@@ -86,11 +86,50 @@ h4{
   font-family: Roboto;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   margin-left: 10vw;
   max-width: 80vw;
   margin-top: 20px;
 }
 
-/*****************************/
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .project-1-container,
+  .project-2-container,
+  .project-3-container,
+  .project-4-container,
+  .project-5-container {
+    margin-top: 5vw;
+  }
+
+  .project-title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .project-tools {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .project-description {
+    font-size: 18px;
+    margin-left: 5vw;
+    max-width: 90vw;
+    margin-top: 15px;
+  }
+
+  .img-project1,
+  .img-project2,
+  .img-project3,
+  .img-project4,
+  .img-project5 {
+    max-width: 80%;
+  }
+}
