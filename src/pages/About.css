@@ -178,3 +178,79 @@
   margin-left: 75vw;
   margin-top: -14vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    display: flex;
+    margin-top: 30vw;
+  }
+  .about-text {
+    margin: 5vw;
+  }
+  .profile-pic {
+    margin: 0 auto;
+    margin-top: 2vw;
+  }
+  .h1-ciao,
+  .p-name {
+    margin: 2vw;
+    font-size: 20px;
+  }
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 2vw;
+  }
+  
+  .html-icon,
+  .javascript-icon,
+  .css-icon,
+  .python-icon,
+  .react-icon,
+  .git-icon,
+  .node-icon,
+  .sql-icon,
+  .mongo-icon,
+  .django-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .icon-container svg {
+    font-size: 25px;
+  }
+  .profile-img {
+    max-width: 300px;
+  }
+  .icons-container {
+    margin-top: 0;
+  }
+  .about-me-text {
+    margin: 5vw;
+    font-size: 20px;
+  }
+  .about-svg-white {
+    margin: 2vw;
+    width: 65px;
+    height: 65px; 
+  }
+  .pink-mark-svg {
+    margin: 2vw;
+    margin-left: 71vw;
+    width: 65px;
+    height: 65px; 
+  }
+  .view-project {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+  }
+  .bfp {
+    margin: 0;
+    margin-top: 3vw;
+    margin-left: 5vw;
+  }
+}
