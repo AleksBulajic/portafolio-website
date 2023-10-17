@@ -31,16 +31,19 @@ function Projects() {
   //   window.open(url, "_blank");
   // };
 
+//TODO make pictures biger!!!!
+
   return (
     <>
       <div className="carousels-container">
         <Slider {...settings}>
           <div className="project-1-container">
-            <a   href="https://github.com/AleksBulajic/NFT_ID_front-end"
-              
+            <a
+              href="https://github.com/AleksBulajic/NFT_ID_front-end"
               target="_blank"
-              rel="noreferrer">
-            <img className="img-project1" src={logInPage} alt="initial-img" />
+              rel="noreferrer"
+            >
+              <img className="img-project1" src={logInPage} alt="initial-img" />
             </a>
             <h1 className="project-title">IDENTITY LOCK</h1>
             <h3 className="project-tools">
@@ -61,11 +64,16 @@ function Projects() {
             </p>
           </div>
           <div className="project-2-container">
-          <a   href="https://github.com/AleksBulajic/FrontendCRUD"
-              
+            <a
+              href="https://github.com/AleksBulajic/FrontendCRUD"
               target="_blank"
-              rel="noreferrer">
-            <img className="img-project2" src={noPayToPlay} alt="initial-img" />
+              rel="noreferrer"
+            >
+              <img
+                className="img-project2"
+                src={noPayToPlay}
+                alt="initial-img"
+              />
             </a>
             <h1 className="project-title">NO PAY TO PLAY</h1>
             <h3 className="project-tools">
@@ -91,11 +99,16 @@ function Projects() {
             </p>
           </div>
           <div className="project-3-container">
-          <a   href="https://github.com/AleksBulajic/mangaVerse"
-              
+            <a
+              href="https://github.com/AleksBulajic/mangaVerse"
               target="_blank"
-              rel="noreferrer">
-            <img className="img-project3" src={SignInPage} alt="initial-img" />
+              rel="noreferrer"
+            >
+              <img
+                className="img-project3"
+                src={SignInPage}
+                alt="initial-img"
+              />
             </a>
             <h1 className="project-title">MANGA VERSE</h1>
             <h3 className="project-tools">
@@ -115,11 +128,12 @@ function Projects() {
             </p>
           </div>
           <div className="project-4-container">
-          <a   href="https://github.com/AleksBulajic/study-flashcards"
-              
+            <a
+              href="https://github.com/AleksBulajic/study-flashcards"
               target="_blank"
-              rel="noreferrer">
-            <img className="img-project4" src={studyhub} alt="initial-img" />
+              rel="noreferrer"
+            >
+              <img className="img-project4" src={studyhub} alt="initial-img" />
             </a>
             <h1 className="project-title">STUDY-HUB</h1>
             <h3 className="project-tools">
@@ -129,26 +143,39 @@ function Projects() {
             <p className="project-description">
               {" "}
               StudyHub is an interactive learning application built using a
-              combination of HTML, CSS, and JavaScript done in React. It leverages the power
-              of MongoDB, Express, Node.js, and Mongoose to provide a seamless
-              experience for users. With its intuitive interface, users can
-              study various topics by viewing questions on one side and their
-              corresponding answers on the other. The application aims to
-              facilitate efficient learning and retention through an engaging
-              and user-friendly approach.
+              combination of HTML, CSS, and JavaScript done in React. It
+              leverages the power of MongoDB, Express, Node.js, and Mongoose to
+              provide a seamless experience for users. With its intuitive
+              interface, users can study various topics by viewing questions on
+              one side and their corresponding answers on the other. The
+              application aims to facilitate efficient learning and retention
+              through an engaging and user-friendly approach.
             </p>
           </div>
           <div className="project-5-container">
-          <a   href="https://github.com/AleksBulajic/Memory-card-game"
-              
+            <a
+              href="https://github.com/AleksBulajic/Memory-card-game"
               target="_blank"
-              rel="noreferrer">
-            <img className="img-project5" src={memoryGame2} alt="initial-img" />
+              rel="noreferrer"
+            >
+              <img
+                className="img-project5"
+                src={memoryGame2}
+                alt="initial-img"
+              />
             </a>
             <h1 className="project-title">MEMORY CARD GAME</h1>
-            <h3 className="project-tools"> HTML ● CSS ● JavaScript</h3>
+            <h3 className="project-tools">
+              Built with HTML, CSS, and JavaScript
+            </h3>
             <p className="project-description">
-              Simple Memory card Game that matches two cards.
+              Memory Card Game is a web-based application that utilizes HTML,
+              CSS, and JavaScript to deliver a classic and interactive gaming
+              experience. With HTML providing the structural backbone, CSS for
+              the visual presentation, and JavaScript for dynamic functionality.
+              The game itself is a simple yet addictive memory testing
+              challenge. Players are tasked with matching pairs of cards by
+              flipping them over two at a time.
             </p>
           </div>
         </Slider>
