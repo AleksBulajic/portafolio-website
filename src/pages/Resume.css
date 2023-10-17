@@ -1,0 +1,76 @@
+.resume-container {
+  background-color: white;
+}
+.first-last-name {
+  margin-top: 5vw;
+  margin-left: 3vw;
+  font-size: 50px;
+  color: #4b818d;
+  font-weight: 900;
+}
+
+.contact-info {
+  font-size: 20px;
+  margin-left: 3.5vw;
+}
+
+.phone-number {
+  margin-top: 1vw;
+  margin-bottom: 0.2vw;
+}
+.email {
+  margin-bottom: 0.2vw;
+}
+.p-g-l {
+  margin-bottom: 0.2vw;
+}
+
+.skills-board {
+  margin-top: 3vw;
+  margin-left: 3.5vw;
+}
+.skills-title {
+  font-size: 30px;
+  color: #4b818d;
+  font-weight: 900;
+  margin-bottom: 1.5vw;
+}
+.skills-front,
+.skills-back,
+.skills-other {
+  margin-bottom: 1vw;
+}
+.skills-back,
+.skills-other {
+  margin-top: 1vw;
+}
+
+.education {
+  margin-top: 3vw;
+  margin-left: 3.5vw;
+}
+.education-title {
+  font-size: 30px;
+  color: #4b818d;
+  font-weight: 900;
+  margin-bottom: 1.5vw;
+  margin-top: 2vw;
+}
+.education-description-g,
+.education-description-b {
+  color: #545454;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.education-description-g{
+    margin-bottom: 2vw
+}
+.education-description-b{
+    margin-bottom: 1vw;
+}
+.education-name{
+    color: black
+}
