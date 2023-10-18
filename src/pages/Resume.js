@@ -1,16 +1,15 @@
 import React from "react";
+import resume from "../assets/resume/aleksBulajicResume.pdf";
 import "./Resume.css";
 
 function Resume() {
   return (
     <div className="resume-container">
-      <h1 className="resume-text">UNDER CONSTRUCTION 👷🏼‍♂️🚧</h1>
       <iframe
-        src="https://giphy.com/embed/sOaKnjmTTPsBqM1DSA"
+        src={resume}
         width="480"
-        height="160"
-        class="giphy-embed"
-        title="Under Construction Gif"
+        height="600"
+        title="AleksResume"
       ></iframe>
     </div>
   );
