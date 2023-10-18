@@ -167,7 +167,7 @@ function Projects() {
             </a>
             <h1 className="project-title">MEMORY CARD GAME</h1>
             <h3 className="project-tools">
-              Built with HTML, CSS, and JavaScript
+               HTML ● CSS ● JavaScript
             </h3>
             <p className="project-description">
               Memory Card Game is a web-based application that utilizes HTML,
