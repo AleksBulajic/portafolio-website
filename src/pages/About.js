@@ -39,6 +39,10 @@ function About() {
     });
   }, []);
 
+//TODO make the project view button smaller 
+
+
+
   return (
     <>
       <div className="about-container">
@@ -126,20 +130,7 @@ function About() {
         creating applications that can help improve the day to day life. I’m
         excited for this new journey and can’t wait to see where it takes me.
       </p>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="216"
-        height="216"
-        viewBox="0 0 216 216"
-        fill="none"
-        className="pink-mark-svg"
-      >
-        <path
-          d="M0.967021 35.046C-15.4703 -49.2127 217.915 37.2022 215.481 128.556C214.497 165.516 214.593 213.878 177.649 215.345C142.509 216.74 77.8507 196.348 55.5365 169.167C14.6627 119.378 13.3012 98.2717 0.967021 35.046Z"
-          fill="#E96699"
-        />
-      </svg>
-     
+
         <div className="bfp">
         <NavLink to="/work" className="work-link">
           <p className="view-project">

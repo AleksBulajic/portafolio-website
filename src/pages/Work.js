@@ -11,6 +11,7 @@ import logInPage from "../assets/identityLock/loginIdentity.png";
 // import gelato1 from "../assets/gelato/gelato1.png";
 // import gelato2 from "../assets/gelato/gelato2.png";
 import studyhub from "../assets/studyhub/studyhub.png";
+// import { FaGithub} from "react-icons/fa";
 import "./Work.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -45,7 +46,7 @@ function Projects() {
             >
               <img className="img-project1" src={logInPage} alt="initial-img" />
             </a>
-            <h1 className="project-title">IDENTITY LOCK</h1>
+            <h1 className="project-title">IDENTITY LOCK </h1>
             <h3 className="project-tools">
               React ● React Router ● Web3 ● Axios ● Python ● SQL ● Django
             </h3>

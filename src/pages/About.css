@@ -138,20 +138,20 @@
   align-items: center;
   justify-content: center;
   font-weight: 900;
-  width: 320px;
-  height: 70px;
+  width: 261px;
+  height: 54px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #e96699;
   color: #000;
   font-family: Roboto;
-  font-size: 32px;
+  font-size: 25px;
   margin-top: 28px;
   margin-bottom: 181px;
 }
 
 .arrow-svg {
-  width: 42px;
+  width: 30px;
   height: 40.001px;
   flex-shrink: 0;
   background: #e96699;

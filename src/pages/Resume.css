@@ -6,6 +6,7 @@
   height: 100vh;
   margin-top: 5%;
 }
+
 .download-cv {
   display: flex;
   align-items: center;
@@ -59,3 +60,4 @@
     width: 28px;
   }
 }
+
