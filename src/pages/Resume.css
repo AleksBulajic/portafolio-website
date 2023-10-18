@@ -3,5 +3,59 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Set the container to take the full height of the viewport */
+  height: 100vh;
+  margin-top: 5%;
+}
+.download-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  width: 206px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e96699;
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  margin-top: 15px;
+  margin-bottom: 192px;
+}
+.resume-img{
+  margin-top: 15vw;
+  width: 36vw;
+  height: 51vw;
+}
+.download-text{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  
+}
+
+.download-icon{
+  height: 21px;
+  width: 34px;
+}
+.download-link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+  .download-cv {
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+
+  .download-text {
+    font-size: 16px;
+  }
+
+  .download-icon {
+    height: 18px;
+    width: 28px;
+  }
 }
