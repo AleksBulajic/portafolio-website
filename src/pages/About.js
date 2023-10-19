@@ -43,7 +43,7 @@ function About() {
   }, []);
 
 
-//TODO make the ciao! bigger
+
 //TODO create a dark and light mode 
 
 

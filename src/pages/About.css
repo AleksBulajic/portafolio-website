@@ -196,6 +196,9 @@
     margin: 2vw;
     font-size: 20px;
   }
+  .h1-ciao{
+    font-size: 40px;
+  }
   .icon-container {
     display: flex;
     align-items: center;
