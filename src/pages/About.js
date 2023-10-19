@@ -35,10 +35,10 @@ function About() {
   ];
   useEffect(() => {
     VanillaTilt.init(document.querySelector(".profile-img"), {
-      max: 10, // Maximum tilt rotation (degrees)
-      speed: 400, // Speed of the tilt effect
-      glare: true, // Show glare effect
-      "max-glare": 0.4, // Maximum glare opacity
+      max: 10,
+      speed: 400, 
+      glare: true, 
+      "max-glare": 0.4, 
     });
   }, []);
 

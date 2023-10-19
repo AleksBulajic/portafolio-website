@@ -9,7 +9,7 @@ function Navbar() {
         <ul className="nav-bar">
           <li className="about-link">
             <NavLink to="/" activeClassName="active-link">
-              About
+              Home
             </NavLink>
           </li>
           <li className="work-link">
