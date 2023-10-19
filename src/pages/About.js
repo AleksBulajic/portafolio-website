@@ -17,6 +17,9 @@ import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
+
+
+
 function About() {
   const images = [
     { src: html, alt: "HTML icon", className: "html-icon" },
@@ -39,8 +42,9 @@ function About() {
     });
   }, []);
 
-//TODO make the project view button smaller 
 
+//TODO make the ciao! bigger
+//TODO create a dark and light mode 
 
 
   return (
