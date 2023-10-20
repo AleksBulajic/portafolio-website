@@ -22,7 +22,7 @@ function Projects() {
     autoplay: true,
     infinite: true,
     pauseOnHover: true,
-    speed: 400,
+    speed: 800,
     slidesToShow: 1,
     slideToScroll: 1,
   };
@@ -51,7 +51,7 @@ function Projects() {
               React ● React Router ● Web3 ● Axios ● Python ● SQL ● Django
             </h3>
             <h4>
-              Requirements for app: 🦊 MetaMask, crypto called: SepoliaETH{" "}
+              Requirements for app:<a href="https://metamask.io/download/" target="_blank" rel="noreferrer" className="metaMask"> 🦊 MetaMask </a>, crypto called: SepoliaETH{" "}
             </h4>
             <p className="project-description">
               {" "}
