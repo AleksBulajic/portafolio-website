@@ -17,9 +17,6 @@ import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-
-
-
 function About() {
   const images = [
     { src: html, alt: "HTML icon", className: "html-icon" },
@@ -36,16 +33,11 @@ function About() {
   useEffect(() => {
     VanillaTilt.init(document.querySelector(".profile-img"), {
       max: 10,
-      speed: 400, 
-      glare: true, 
-      "max-glare": 0.4, 
+      speed: 400,
+      glare: true,
+      "max-glare": 0.4,
     });
   }, []);
-
-
-
-//TODO create a dark and light mode 
-
 
   return (
     <>
@@ -60,7 +52,6 @@ function About() {
           <div className="icon-container">
             <a
               href="https://github.com/AleksBulajic"
-              
               target="_blank"
               rel="noreferrer"
             >
@@ -135,7 +126,7 @@ function About() {
         excited for this new journey and can’t wait to see where it takes me.
       </p>
 
-        <div className="bfp">
+      <div className="bfp">
         <NavLink to="/work" className="work-link">
           <p className="view-project">
             VIEW PROJECTS {"  "}
@@ -153,9 +144,8 @@ function About() {
               />
             </svg>
           </p>
-          </NavLink>
-        </div>
-     
+        </NavLink>
+      </div>
     </>
   );
 }
