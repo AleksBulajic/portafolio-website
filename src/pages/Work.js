@@ -19,7 +19,7 @@ import "./CustomSlider.css";
 
 function Projects() {
   const settings = {
-    autoplay: true,
+    autoplay: false,
     infinite: true,
     pauseOnHover: true,
     speed: 800,
@@ -27,10 +27,6 @@ function Projects() {
     slideToScroll: 1,
   };
 
-  //? this is the code to activate buttons to open new page
-  // const handleProjectButtonClick = (url) => {
-  //   window.open(url, "_blank");
-  // };
 
 //TODO make pictures biger!!!!
 
