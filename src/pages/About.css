@@ -187,7 +187,7 @@
   .about-text {
     margin: 5vw;
   }
-  .about-me-text{
+  .about-me-text {
     max-width: 90vw;
   }
   .profile-pic {
@@ -199,17 +199,21 @@
     margin: 2vw;
     font-size: 20px;
   }
-  .h1-ciao{
+  .h1-ciao {
     font-size: 40px;
   }
   .icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 1.5vw;
     margin: 2vw;
   }
-  
+
+.icon-container svg {
+  font-size: 18px !important;
+}
+
   .html-icon,
   .javascript-icon,
   .css-icon,
@@ -223,14 +227,13 @@
     width: 22px;
     height: 22px;
   }
-.django-icon,
-.git-icon,
-.mongo-icon,
-.node-icon{
-  width: 33px;
-  height: 30px;
-}
-
+  .django-icon,
+  .git-icon,
+  .mongo-icon,
+  .node-icon {
+    width: 33px;
+    height: 30px;
+  }
 
   .icon-container svg {
     font-size: 25px;
@@ -248,21 +251,21 @@
   .about-svg-white {
     margin: 2vw;
     width: 65px;
-    height: 65px; 
+    height: 65px;
   }
   .pink-mark-svg {
     margin: 2vw;
     margin-left: 71vw;
     width: 65px;
-    height: 65px; 
+    height: 65px;
   }
   .view-project {
-    width: 200px; 
+    width: 200px;
     height: 40px;
-    font-size: 20px; 
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 50px;
-}
+  }
   .bfp {
     margin: 0;
     margin-top: 3vw;
