@@ -187,6 +187,9 @@
   .about-text {
     margin: 5vw;
   }
+  .about-me-text{
+    max-width: 90vw;
+  }
   .profile-pic {
     margin: 0 auto;
     margin-top: 2vw;
@@ -217,9 +220,18 @@
   .sql-icon,
   .mongo-icon,
   .django-icon {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
+.django-icon,
+.git-icon,
+.mongo-icon,
+.node-icon{
+  width: 33px;
+  height: 30px;
+}
+
+
   .icon-container svg {
     font-size: 25px;
   }
@@ -245,12 +257,12 @@
     height: 65px; 
   }
   .view-project {
-    width: 250px;
-    height: 50px;
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 90px;
-  }
+    width: 200px; 
+    height: 40px;
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
   .bfp {
     margin: 0;
     margin-top: 3vw;
