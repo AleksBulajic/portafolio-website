@@ -47,11 +47,23 @@
   font-size: 35px;
   color: white;
   transition: color 0.3s ease;
+  transition: scale 0s ease;
 }
 
 .icon-container svg:hover {
   color: #1abc9c;
+  scale: 1.2;
 }
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+.icon-container svg {
+  animation: rotate 0.5s forwards;
+  animation-delay: 2.9s; 
+}
+
 .profile-img {
   width: 100%;
   max-width: 400px;
