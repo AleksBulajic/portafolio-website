@@ -137,7 +137,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2,
+                delay: 2.3,
                 type: "spring",
                 stiffness: 120,
               }}
@@ -152,7 +152,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2,
+                delay: 2.4,
                 type: "spring",
                 stiffness: 120,
               }}
@@ -169,7 +169,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2,
+                delay: 2.5,
                 type: "spring",
                 stiffness: 120,
               }}
