@@ -188,7 +188,9 @@
     margin: 5vw;
   }
   .about-me-text {
-    max-width: 90vw;
+  max-width: 80vw;
+    font-size: 14px;
+    padding: 10px;
   }
   .profile-pic {
     margin: 0 auto;
