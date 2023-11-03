@@ -67,20 +67,6 @@ function About() {
     },
   };
 
-  const profileEnterFromRightVariants = {
-    initial: {
-      x: "100vw",
-      y: "50%",
-      opacity: 0,
-    },
-    animate: {
-      x: 0,
-      y: 0,
-      opacity: 1,
-      transition: { delay: 1, duration: 1 },
-    },
-  };
-
   return (
     <>
       <div className="about-container">
