@@ -11,7 +11,7 @@ import MongoDB from "../assets/icons/MongoDB.png";
 import node from "../assets/icons/Node.js_logo.svg";
 import SQL from "../assets/icons/SQL.svg";
 import css from "../assets/icons/css.png";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import VanillaTilt from "vanilla-tilt";
 import { useEffect, useState } from "react";
@@ -23,7 +23,6 @@ import { Observer } from "gsap/Observer";
 function About() {
   gsap.registerPlugin(Flip, Observer);
   const [isVisible, setIsVisible] = useState(false);
-  const controls = useAnimation();
 
   const images = [
     { src: html, alt: "HTML icon", className: "html-icon" },
