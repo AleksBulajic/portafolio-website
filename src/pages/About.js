@@ -16,8 +16,13 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { gsap } from "gsap";
+import { Flip } from "gsap/Flip";
+import { Observer } from "gsap/Observer";
 
 function About() {
+  gsap.registerPlugin(Flip, Observer);
+
   const images = [
     { src: html, alt: "HTML icon", className: "html-icon" },
     { src: css, alt: "CSS icon", className: "css-icon" },
@@ -39,38 +44,143 @@ function About() {
     });
   }, []);
 
+  useEffect(() => {
+    gsap.from(".p-name", {
+      duration: 1,
+      y: 100,
+      opacity: 0,
+      ease: "power3.out",
+    });
+  }, []);
+
+  const h1EnterFromLeftVariants = {
+    initial: {
+      x: "-100vw",
+      y: "50%",
+      opacity: 0,
+    },
+    animate: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: { delay: 1, duration: 1 },
+    },
+  };
+
+  const profileEnterFromRightVariants = {
+    initial: {
+      x: "100vw",
+      y: "50%",
+      opacity: 0,
+    },
+    animate: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: { delay: 1, duration: 1 },
+    },
+  };
+
   return (
     <>
       <div className="about-container">
         <div className="about-text">
-          <h1 className="h1-ciao">Ciao!</h1>
-          <p className="p-name">
-            My name is <strong>Aleks</strong> and<br></br> I'm a{" "}
-            <strong>Software Engineer</strong>
-            <br></br>from Croatia
-          </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "left",
+              alignItems: "left",
+              paddingTop: "40px",
+              paddingBottom: "1.5rem",
+            }}
+          >
+            <motion.h1
+              className="landing-hi"
+              variants={h1EnterFromLeftVariants}
+              initial="initial"
+              animate="animate"
+              style={{ margin: 0 }}
+            >
+              <h1 className="h1-ciao">Ciao!</h1>
+            </motion.h1>
+          </div>
+          <motion.p
+            className="p-name"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 1,
+              delay: 2,
+              type: "spring",
+              stiffness: 120,
+            }}
+          >
+            My name is <strong>Aleks</strong> and
+            <br /> I'm a <strong>Software Engineer</strong>
+            <br />
+            from Croatia
+          </motion.p>
+
           <div className="icon-container">
-            <a
+            <motion.a
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               href="https://github.com/AleksBulajic"
               target="_blank"
               rel="noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              transition={{
+                duration: 1,
+                delay: 2,
+                type: "spring",
+                stiffness: 120,
+              }}
             >
               <FaGithub />
-            </a>
-            <a href="mailto:aleks.bulajic25@gmail.com">
+            </motion.a>
+            <motion.a
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              href="mailto:aleks.bulajic25@gmail.com"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              transition={{
+                duration: 1,
+                delay: 2,
+                type: "spring",
+                stiffness: 120,
+              }}
+            >
               <FaEnvelope />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               href="https://www.linkedin.com/in/aleksandar-bulajic-dev/"
               target="_blank"
               rel="noreferrer"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              transition={{
+                duration: 1,
+                delay: 2,
+                type: "spring",
+                stiffness: 120,
+              }}
             >
               <FaLinkedin />
-            </a>
+            </motion.a>
           </div>
         </div>
         <div className="profile-pic">
-          <img className="profile-img" src={profilePic} alt="profile IMG" />
+          <motion.div
+            initial={{ opacity: 0, x: "100vw" }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <img className="profile-img" src={profilePic} alt="profile IMG" />
+          </motion.div>
         </div>
       </div>
       <div className="icons-container">
