@@ -83,33 +83,35 @@ function About() {
   const textVariants = {
     hidden: {
       opacity: 0,
-      y: 50,
+      x: -100,
     },
     visible: {
       opacity: 1,
-      y: 0,
+      x: 0,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.02, // Decrease the stagger time for super fast appearance
+        staggerChildren: 10,
+        delay: 0.5, 
       },
     },
   };
+  
 
-  const letterVariants = {
-    hidden: {
-      opacity: 0,
-      y: 50,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.01, // Decrease the stagger time even further for super fast appearance
-        duration: 0.2, // Decrease the duration for super fast appearance
-      },
-    },
-  };
+  // const letterVariants = {
+  //   hidden: {
+  //     opacity: 0,
+  //     y: 50,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       when: "beforeChildren",
+  //       staggerChildren: 0.01, // Decrease the stagger time even further for super fast appearance
+  //       duration: 0.2, // Decrease the duration for super fast appearance
+  //     },
+  //   },
+  // };
   const text =
     "From a small village in the peninsula of Croatia, I moved to New York City in search of adventure. I’m driven by new challenges and thrived in the desire to build a life for myself in this country. Starting as a dishwasher in a local bar, I worked my way up to becoming a Manager at various Culinary Institutes. Now, embarking on a new adventure in the tech industry, I found joy in problem-solving through technology and creating applications that can help improve the day-to-day life. I’m excited for this new journey and can’t wait to see where it takes me.";
 
@@ -264,11 +266,7 @@ function About() {
           initial="hidden"
           animate={isVisible ? "visible" : "hidden"}
         >
-          {text.split("").map((letter, index) => (
-            <motion.span key={index} variants={letterVariants}>
-              {letter}
-            </motion.span>
-          ))}
+          {text}
         </motion.p>
       </div>
 
