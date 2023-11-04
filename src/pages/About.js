@@ -71,12 +71,12 @@ function About() {
   useEffect(() => {
     const handleScroll = () => {
       const position = window.scrollY;
-      const threshold = 500; 
+      const threshold = 500;
       if (position > threshold) {
         setIsVisible(true);
       }
     };
-  
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -110,8 +110,8 @@ function About() {
       },
     },
   };
-  const text = "From a small village in the peninsula of Croatia, I moved to New York City in search of adventure. I’m driven by new challenges and thrived in the desire to build a life for myself in this country. Starting as a dishwasher in a local bar, I worked my way up to becoming a Manager at various Culinary Institutes. Now, embarking on a new adventure in the tech industry, I found joy in problem-solving through technology and creating applications that can help improve the day-to-day life. I’m excited for this new journey and can’t wait to see where it takes me.";
-
+  const text =
+    "From a small village in the peninsula of Croatia, I moved to New York City in search of adventure. I’m driven by new challenges and thrived in the desire to build a life for myself in this country. Starting as a dishwasher in a local bar, I worked my way up to becoming a Manager at various Culinary Institutes. Now, embarking on a new adventure in the tech industry, I found joy in problem-solving through technology and creating applications that can help improve the day-to-day life. I’m excited for this new journey and can’t wait to see where it takes me.";
 
   return (
     <>
@@ -258,19 +258,19 @@ function About() {
         />
       </svg>
       <div className="about-me-text">
-    <motion.p
-      className="about-me-text"
-      variants={textVariants}
-      initial="hidden"
-      animate={isVisible ? "visible" : "hidden"}
-    >
-      {text.split("").map((letter, index) => (
-        <motion.span key={index} variants={letterVariants}>
-          {letter}
-        </motion.span>
-      ))}
-    </motion.p>
-  </div>
+        <motion.p
+          className="about-me-text"
+          variants={textVariants}
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
+        >
+          {text.split("").map((letter, index) => (
+            <motion.span key={index} variants={letterVariants}>
+              {letter}
+            </motion.span>
+          ))}
+        </motion.p>
+      </div>
 
       <div className="bfp">
         <NavLink to="/work" className="work-link">
