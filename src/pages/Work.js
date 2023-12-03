@@ -34,6 +34,7 @@ function Projects() {
     <>
       <div className="carousels-container">
         <Slider {...settings}>
+        
           <div className="project-1-container">
             <a
               href="https://github.com/AleksBulajic/NFT_ID_front-end"
