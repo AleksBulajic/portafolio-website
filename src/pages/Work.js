@@ -34,7 +34,20 @@ function Projects() {
     <>
       <div className="carousels-container">
         <Slider {...settings}>
+        <div className="">
+            <a
+            >
+              <img className="img-project1" src='' alt="initial-img" />
+            </a>
+            <h1 className="project-title"> </h1>
+            <h3 className="project-tools">
+              
+            </h3>
         
+            <p className="project-description">
+              {" "}
+            </p>
+          </div>
           <div className="project-1-container">
             <a
               href="https://github.com/AleksBulajic/NFT_ID_front-end"
