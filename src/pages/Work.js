@@ -12,6 +12,7 @@ import logInPage from "../assets/identityLock/loginIdentity.png";
 // import gelato2 from "../assets/gelato/gelato2.png";
 import studyhub from "../assets/studyhub/studyhub.png";
 // import { FaGithub} from "react-icons/fa";
+import saleslight from "../assets/saleslight/saleslight.png";
 import "./Work.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -28,12 +29,30 @@ function Projects() {
   };
 
 
-//TODO make pictures biger!!!!
 
   return (
     <>
       <div className="carousels-container">
         <Slider {...settings}>
+          <div className="project-6-container">
+            <a href="https://saleslights.com/" target="_blank" rel="noreferrer">
+              <img
+                className="img-project6"
+                src={saleslight}
+                alt="initial-img"
+              />
+            </a>
+            <h1 className="project-title">SalesLight</h1>
+            <h3 className="project-tools">
+              HTML ● CSS ● TypeScipt ● Node/Express ● MongoDB ● AWS ● Python
+            </h3>
+            <p className="project-description">
+              {""}
+              Saleslights SaaS analyzes LinkedIn leads' posts, profiles, &
+              personalities for targeted sales messages, streamlining outreach.
+              This is the Chrome Extension of the Saleslights platform.
+            </p>
+          </div>
           <div className="project-1-container">
             <a
               href="https://github.com/AleksBulajic/NFT_ID_front-end"
@@ -47,7 +66,17 @@ function Projects() {
               React ● React Router ● Web3 ● Axios ● Python ● SQL ● Django
             </h3>
             <h4>
-              Requirements for app:<a href="https://metamask.io/download/" target="_blank" rel="noreferrer" className="metaMask"> 🦊 MetaMask </a>, crypto called: SepoliaETH{" "}
+              Requirements for app:
+              <a
+                href="https://metamask.io/download/"
+                target="_blank"
+                rel="noreferrer"
+                className="metaMask"
+              >
+                {" "}
+                🦊 MetaMask{" "}
+              </a>
+              , crypto called: SepoliaETH{" "}
             </h4>
             <p className="project-description">
               {" "}
@@ -162,9 +191,7 @@ function Projects() {
               />
             </a>
             <h1 className="project-title">MEMORY CARD GAME</h1>
-            <h3 className="project-tools">
-               HTML ● CSS ● JavaScript
-            </h3>
+            <h3 className="project-tools">HTML ● CSS ● JavaScript</h3>
             <p className="project-description">
               Memory Card Game is a web-based application that utilizes HTML,
               CSS, and JavaScript to deliver a classic and interactive gaming

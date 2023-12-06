@@ -5,7 +5,8 @@
 .project-2-container,
 .project-3-container,
 .project-4-container,
-.project-5-container {
+.project-5-container,
+.project-6-container {
   margin-top: 10vw;
   display: flex;
   flex-direction: column;
@@ -20,7 +21,8 @@
 .img-project2,
 .img-project3,
 .img-project4,
-.img-project5 {
+.img-project5,
+.img-project6 {
   display: block;
   margin: 0 auto;
   max-width: 50%;
@@ -32,7 +34,8 @@
 .img-project2:hover,
 .img-project3:hover,
 .img-project4:hover,
-.img-project5:hover {
+.img-project5:hover,
+.img-project6:hover {
   cursor: pointer; /* Change the cursor to a pointer on hover */
   transform: scale(1.05); /* Slightly increase the size on hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
@@ -52,6 +55,9 @@
   max-width: 35%;
 }
 .img-project5{
+  max-width: 25%;
+}
+.img-project6{
   max-width: 25%;
 }
 
@@ -101,7 +107,8 @@ h4{
   .project-2-container,
   .project-3-container,
   .project-4-container,
-  .project-5-container {
+  .project-5-container,
+  .project-6-container {
     margin-top: 36vw;
   }
 
@@ -131,7 +138,8 @@ h4{
   .img-project2,
   .img-project3,
   .img-project4,
-  .img-project5 {
+  .img-project5,
+  .img-project6 {
     max-width: 80%;
   }
 }
