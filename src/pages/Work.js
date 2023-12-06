@@ -42,7 +42,7 @@ function Projects() {
                 alt="initial-img"
               />
             </a>
-            <h1 className="project-title">SalesLight</h1>
+            <h1 className="project-title">SalesLights</h1>
             <h3 className="project-tools">
               HTML ● CSS ● TypeScipt ● Node/Express ● MongoDB ● AWS ● Python
             </h3>
