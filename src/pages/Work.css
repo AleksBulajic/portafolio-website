@@ -28,7 +28,7 @@
   max-width: 50%;
   height: auto;
   border-radius: 5px;
-  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+  transition: transform 0.3s, box-shadow 0.3s; 
 }
 .img-project1:hover,
 .img-project2:hover,
@@ -36,9 +36,9 @@
 .img-project4:hover,
 .img-project5:hover,
 .img-project6:hover {
-  cursor: pointer; /* Change the cursor to a pointer on hover */
-  transform: scale(1.05); /* Slightly increase the size on hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+  cursor: pointer; 
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .img-project1{
