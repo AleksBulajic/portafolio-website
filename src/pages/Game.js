@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Game.css"
 
 function Game() {
   return (
-    <div>Game Page!</div>
+    <div className='game-container'>Game Page!</div>
   )
 }
 
