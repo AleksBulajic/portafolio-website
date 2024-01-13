@@ -64,7 +64,7 @@ function About() {
       x: 0,
       y: 0,
       opacity: 1,
-      transition: { delay: 1, duration: 1 },
+      transition: { delay: 0.5, duration: 1 },
     },
   };
 
@@ -91,11 +91,10 @@ function About() {
       transition: {
         when: "beforeChildren",
         staggerChildren: 10,
-        delay: 0.5, 
+        delay: 0.5,
       },
     },
   };
-  
 
   // const letterVariants = {
   //   hidden: {
@@ -144,7 +143,7 @@ function About() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 1,
-              delay: 2,
+              delay: 1,
               type: "spring",
               stiffness: 120,
             }}
@@ -154,7 +153,6 @@ function About() {
             <br />
             from Croatia
           </motion.p>
-
           <div className="icon-container">
             <motion.a
               initial={{ opacity: 0 }}
@@ -166,7 +164,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2.3,
+                delay: 1.3, // Adjusted delay for GitHub icon
                 type: "spring",
                 stiffness: 120,
               }}
@@ -181,7 +179,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2.4,
+                delay: 1.5, // Adjusted delay for Email icon
                 type: "spring",
                 stiffness: 120,
               }}
@@ -198,7 +196,7 @@ function About() {
               whileTap={{ scale: 0.8 }}
               transition={{
                 duration: 1,
-                delay: 2.5,
+                delay: 1.7, // Adjusted delay for LinkedIn icon
                 type: "spring",
                 stiffness: 120,
               }}
