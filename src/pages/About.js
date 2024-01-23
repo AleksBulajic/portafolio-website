@@ -19,7 +19,7 @@ import { NavLink } from "react-router-dom";
 import { gsap } from "gsap";
 import { Flip } from "gsap/Flip";
 import { Observer } from "gsap/Observer";
-
+//* Maybe create a dark and light feature?
 function About() {
   gsap.registerPlugin(Flip, Observer);
   const [isVisible, setIsVisible] = useState(false);
