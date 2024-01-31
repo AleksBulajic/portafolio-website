@@ -1,6 +1,6 @@
 import React from "react";
-import resume from "../assets/resume/ABresume.pdf";
-import resumeImg from "../assets/resume/AB_R.png";
+import resume from "../assets/resume/Aleks.pdf";
+import resumeImg from "../assets/resume/Resume.png";
 import "./Resume.css";
 
 function Resume() {
