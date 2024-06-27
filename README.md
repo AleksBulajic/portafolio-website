@@ -39,7 +39,6 @@ Step into the future of digital identity with IdentityLock! As team lead and sen
 - Ethers
 - Cors
 
-
 Contact
 I'm always excited to connect and discuss new opportunities. Feel free to reach out to me via email at aleks.bulajic25@gmail.com or connect with me on LinkedIn.
 
