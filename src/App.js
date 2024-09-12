@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Work from "./pages/Work";
+import Game from "./pages/Game"
 // import ParticlesComponent from "./components/ParticlesComponent";
 import Resume from "./pages/Resume";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/resume" element={<Resume/>} />
+        <Route path="/game" element={<Game/>}/>
       </Routes>
       <Footer/>
     </>
