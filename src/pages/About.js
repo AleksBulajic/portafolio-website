@@ -112,7 +112,7 @@ function About() {
   //   },
   // };
   const text =
-    "From a small village in the peninsula of Croatia, I moved to New York City in search of adventure. I’m driven by new challenges and thrived in the desire to build a life for myself in this country. Starting as a dishwasher in a local bar, I worked my way up to becoming a Manager at various Culinary Institutes. Now, embarking on a new adventure in the tech industry, I found joy in problem-solving through technology and creating applications that can help improve the day-to-day life. I’m excited for this new journey and can’t wait to see where it takes me.";
+   "Originally from a small village in Croatia, I moved to New York City with a passion for new challenges and the desire to build a future in a dynamic environment. My journey in the tech industry began with a drive to problem-solve and create impactful solutions. Starting from the basics, I immersed myself in learning new programming languages and frameworks, constantly refining my skills. Over time, I’ve found great joy in building applications that solve real-world problems and improve everyday life. As I continue to grow in this field, I’m excited about the opportunities ahead and the endless possibilities that lie in technology’s ability to innovate and make a difference.";
 
   return (
     <>
