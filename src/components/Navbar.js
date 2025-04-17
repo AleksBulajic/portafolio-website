@@ -22,6 +22,11 @@ function Navbar() {
               Resume
             </NavLink>
           </li>
+          <li className="resume-link">
+            <NavLink to="/game" activeClassName="active-link">
+              Game
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
